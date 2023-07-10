@@ -5,12 +5,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
+
+
+
   <body>
+      <!-- nav -->
     <nav>
       <div class="navTop">
         <div class="navItem">
-          <img src="./img/sneakers.png" alt="" />
+        
+           <a href="lastMin.html"><img src="./img/sneakers.png" alt="" /></a>
         </div>
         <div class="navItem">
           <div class="seach">
@@ -25,349 +31,353 @@
           </div>
         </div>
         <div class="navItem">
+            <i class='bx bxs-shopping-bags' id="cardIconSh" ></i>
+            <!-- cart
+             <div class="cart">
+                <h2 class="cart-title"> Your Cart</h2>
+                  <-- content -->
+                  <!-- <div class="card-content"> -->
+                    <!-- TEST BOX -->
+                    <!-- <div class="cart-box">
+                        <img src="./img/my13.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Nike shoes</div>
+                            <div class="cart-price">$199</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div> -->
+                        <!-- REMOVE CART -->
+                        <!-- <i class='bx bxs-trash-alt cart-remove' ></i>
+                    </div>
+                  </div> -->
+                <!-- TOTAL -->
+                <!-- <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div> -->
+                <!-- BUY BOTTON -->
+                <!-- <button type="button" class="btn-buy">Buy Now</button> -->
+                <!-- CART CLOSE -->
+                 <!-- <i class='bx bx-x' id="cart-close" ></i>
+                     
+             </div> -->
+           
           <a href="home.html"
-            ><span class="limitedOffer">limited Offer!</span></a
-          >
+            ><span class="limitedOffer">limited Offer!</span></a>
+            
         </div>
       </div>
       <ul class="navBottom">
         <li><a href="#home" class="menuItem">Home</a></li>
         <li><a href="#Products" class="menuItem">Products</a></li>
         <li><a href="#Review" class="menuItem">Review</a></li>
-        <li><a href="#Servises" class="menuItem">Servises</a></li>
+        <li><a href="#Servises" class="menuItem">Services</a></li>
       </ul>
-      <div class="icons">
-        <i class="fa-solid fa-heart"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <i class="fa-solid fa-user"></i>
-      </div>
     </nav>
-    <div class="main" id="Home">
-      <div class="main_content">
-          <div class="main_text">
-              <h1>NIKE<br><span>Collection</span></h1>
-              <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                  been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                  a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                  five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-              </p>
-          </div>
-          <div class="main_image">
-              <img src="./img/shoes.png">
-          </div>
-      </div>
-      <div class="social_icon">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-      </div>
-      <!-- <div class="button">
-          <a href="#">SHOP NOW</a>
-          <i class="fa-solid fa-chevron-right"></i>
-      </div> -->
-  </div>
+    <!-- body -->
+<section class="section1">
+<div class="content">
+    <div class="imgBx">
+        <img src="./img/shoe.png" alt="">
+    </div>
+    <div class="text">
+        <h2 class="h2">Nike Air Zoom </h2>
+        <p class="P1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Distinctio iste exercitationem dolorem quod vel tempora ullam expedita <br> explicabo alias reiciendis? 
+            Ex eveniet quae et aliquid exercitationem porro, eligendi doloribus eius.</p>
+            <a class="details" href="#">Details</a>
+    </div>
 
+</div>
+</section>
+
+<!--Products-->
+<h1 class="SH1" id="Products">OUR<span>Products</span></h1>
+<section class="shop-container">
+    <div class="shop-content">
+        <!-- BOX1 -->
+        <div class="product-box">
+            <img src="./img/my13.jpg" alt="" class="product-img">
+            <h2 class="product-title">Nike Air Jordan</h2>
+            <span class="product-price">$155</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+         <!-- BOX 2-->
+         <div class="product-box">
+            <img src="./img/my3.png" alt="" class="product-img">
+            <h2 class="product-title"> Air Force 1</h2>
+            <span class="product-price">$130</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+         <!-- BOX 3-->
+         <div class="product-box">
+            <img src="./img/my9.webp" alt="" class="product-img">
+            <h2 class="product-title">Blazer</h2>
+            <span class="product-price">$111</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+         <!-- BOX 4-->
+         <div class="product-box">
+            <img src="./img/justluck.jpg" alt="" class="product-img">
+            <h2 class="product-title">Converse</h2>
+            <span class="product-price">$80</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+         <!-- BOX 5-->
+         <div class="product-box">
+            <img src="./img/my14.jpg" alt="" class="product-img">
+            <h2 class="product-title">Nike Air Griffey Max 1</h2>
+            <span class="product-price">$240</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- BOX 6-->
+         <div class="product-box">
+            <img src="./img/my7.avif" alt="" class="product-img">
+            <h2 class="product-title"> Air Max 97 SE</h2>
+            <span class="product-price">$200</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- BOX 7-->
+         <div class="product-box">
+            <img src="./img/my8.jpg" alt="" class="product-img">
+            <h2 class="product-title"> Air Max </h2>
+            <span class="product-price">$140</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+         <!-- BOX 8-->
+         <div class="product-box">
+            <img src="./img/just3.jpg" alt="" class="product-img">
+            <h2 class="product-title">Vans</h2>
+            <span class="product-price">$100</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+    </div>
+
+    
+</section>
+<br>
+<br>
+<br>
+<br>
+<!-- SUMMER OFFER -->
+    <section class="section-cta">
+        <div class="container">
+    <ul class="cta-list">
+
+        <!-- THE FIRST -->
+    <li>
+        <div class="cta-card" style="background-image: url(./img/s4.webp);">
+         <br>
+         <br>
+        <br>
+         <h3 class="h2 card-title">The Summer sale off 50% </h3>
+         <br>
+         <br>
+         <a href="home.html" class="btn btn-link">
+         <button class="nsButton">CHOOSE YOUR STYLE</button></a>
+        </div>
+       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+     
+
+    </li>
+      <!-- THE SEC -->
+    <li>
+        <div class="cta-card" style="background-image: url(./img/s3.jpeg);">
+        <br>
+         <br>
+        <br>
+         <h3 class="h2 card-title">The Summer sale off 50% </h3>
+         <a href="home.html" class="btn btn-link">
+            <br>
+         <br>
+          <button class="nsButton">CHOOSE YOUR STYLE</button> </a>
+          </div>
+       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+     
+    </li>
+    
+     <!-- THE THIR -->
+
+       <li>
+        <div class="cta-card" style="background-image: url(./img/inscri.webp);">
+         <h3 class="h2 card-title">The Summer sale off 50% </h3>
+       <a href="home.html" class="btn btn-link">
+        <button class="nsButton">CHOOSE YOUR STYLE</button>
+        </div>
+       </a>
+       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+       <br>
+    </li>
+    </ul>
+    </div>
+    </section>
+<br>
+<br>
+
+
+
+
+<!-- PRODUCT 2222 -->
+
+<section class="shop-container">
+    <div class="shop-content">
+        <!-- box1 -->
+        <div class="product-box">
+            <img src="./img/just8.webp" alt="" class="product-img">
+            <h2 class="product-title"> Air Max</h2>
+            <span class="product-price">$150</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+        <!-- box2 -->
+        <div class="product-box">
+            <img src="./img/justdude.webp" alt="" class="product-img">
+            <h2 class="product-title">Nike Cosmic Unity 2</h2>
+            <span class="product-price">$150</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+        <!-- box3 -->
+        <div class="product-box">
+            <img src="./img/just.webp" alt="" class="product-img">
+            <h2 class="product-title">Air Force 1</h2>
+            <span class="product-price">$180</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+        <!-- box4 -->
+            <div class="product-box">
+            <img src="./img/just1.webp" alt="" class="product-img">
+            <h2 class="product-title">Nike Air Max 90</h2>
+            <span class="product-price">$150</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- box5 -->
+            <div class="product-box">
+            <img src="./img/just5.webp" alt="" class="product-img">
+            <h2 class="product-title">New Balance 530</h2>
+            <span class="product-price">$160</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- box6-->
+            <div class="product-box">
+            <img src="./img/just12.webp" alt="" class="product-img">
+            <h2 class="product-title">Air Force 1</h2>
+            <span class="product-price">$101</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- box7-->
+            <div class="product-box">
+            <img src="./img/just10.webp" alt="" class="product-img">
+            <h2 class="product-title">Nike Revolution 6</h2>
+            <span class="product-price">$150</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+           <!-- box8 -->
+            <div class="product-box">
+            <img src="./img/just6.webp" alt="" class="product-img">
+            <h2 class="product-title">Nike Air Jordan 4</h2>
+            <span class="product-price">$199</span>
+            <i class='bx bxs-shopping-bags add-cart' ></i>
+        </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+    
+</section>
+
+<br>
+<br>
+
+
+
+
+<!-- NEW SEASON -->
+
+ <div class="newSeason">
+      <div class="nsItem">
+        <img src="./img/id6.jpg" alt="" class="nsImg" />
+      </div>
+      <div class="nsItem">
+        <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+        <h1 class="nsTitle">New SEASON</h1>
+        <h1 class="nsTitle">New Collection</h1>
+        <a href="home.html">
+          <button class="nsButton">CHOOSE YOUR STYLE</button>
+        </a>
+      </div>
+      <div class="nsItem">
+        <img src="./img/id5.jpg" alt="" class="nsImg" />
+      </div>
+    </div>
+
+
+
+
+
+
+
+   <!--Serves-->
+    <div class="features" id="Servises">
+    
+      <div class="feature">
+        <img src="./img/shipping.png" alt="" class="featureIcon" />
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featuredDesc">Free Worldwide Shipping on all orders</span>
+      </div>
+      <div class="feature">
+        <img src="./img/return.png" alt="" class="featureIcon" />
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featuredDesc"
+          >No question return and easy refund in 30 days</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/gift.png" alt="" class="featureIcon" />
+        <span class="featureTitle">GIFT CARDS</span>
+        <span class="featuredDesc"
+          >Buy gift cards and use coupon codes easily</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./img/contact.png" alt="" class="featureIcon" />
+        <span class="featureTitle">CONTACT US</span>
+        <span class="featuredDesc"
+          >Keep in touch via email and support system</span
+        >
+      </div>
+      </div>
+ </div>
+
+
+
+
+<!-- Login Form -->
+<section class="SecLog">
+    <div class="styleDiv">
+     <div class="tt">
+      <div class="containerLog">
+        <h2>Log In</h2>
+         <form >
+          <div class="inputBox">
+            <input type="text" required="required">
+            <span>Full Name</span>
+         </div>
+         <div class="inputBox">
+            <input type="email" required="required">
+            <span>Email Adress</span>
+         </div>
+        <div class="inputBox" >
+           <input class="sub" type="submit" value="Subscribe">
+        </div>
+        </div>
+    </form>
+</div>
 </section>
 
 
-<!--Products-->
-
-<div class="products" id="Products">
-  <h1>Products</h1>
-
-  <div class="box">
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes1.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$100.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes2.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$200.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes3.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$175.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star-half-stroke"></i>
-                  <i class="fa-regular fa-star"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes4.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$120.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes5.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$150.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes6.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$220.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star-half-stroke"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$110.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-                  <i class="fa-regular fa-star"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-      <div class="card">
-
-          <div class="small_card">
-              <i class="fa-solid fa-heart"></i>
-              <i class="fa-solid fa-share"></i>
-          </div>
-
-          <div class="image">
-              <img src="./img/shoes7.png">
-          </div>
-
-          <div class="products_text">
-              <h2>NIKE</h2>
-              <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </p>
-              <h3>$150.99</h3>
-              <div class="products_star">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-regular fa-star-half-stroke"></i>
-              </div>
-              <a href="#" class="btn">Add To Cart</a>
-          </div>
-
-      </div>
-
-  </div>
-</div>
 
 
-
-<!--About-->
-
-<div class="about" id="About">
-  
-  <h1>Web<span>About</span></h1>
-
-  <div class="about_main">
-      <div class="about_image">
-          <div class="about_small_image">
-              <img src="./img/red_shoes1.png" onclick="functio(this)">
-              <img src="./img/red_shoes2.png" onclick="functio(this)">
-              <img src="./img/red_shoes3.png" onclick="functio(this)">
-              <img src="./img/red_shoes4.png" onclick="functio(this)">
-          </div>
-
-          <div class="image_contaner">
-              <img src="./img/red_shoes1.png" id="imagebox">
-          </div>
-
-      </div>
-
-      <div class="about_text">
-          <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
-              Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
-              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
-              Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the 
-              undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
-              (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
-              very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes 
-              from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below 
-              for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also 
-              reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-          </p>
-      </div>
-
-  </div>
-
-  <a href="#" class="about_btn">Shop Now</a>
-
-  <script>
-      function functio(small){
-          var full = document.getElementById("imagebox")
-          full.src = small.src
-      }
-  </script>
-  
-</div>
-
-
-
-<!--Review-->
-
+<!--Reviews-->
 <div class="review" id="Review">
   <h1>Customer's<span>review</span></h1>
   
@@ -564,128 +574,66 @@
   </div>
 
 </div>
+   
 
-
-<!--Services-->
-
-<div class="services" id="Servises">
-  <h1>our<span>services</span></h1>
-
-  <div class="services_cards">
-      <div class="services_box">
-          <i class="fa-solid fa-truck-fast"></i>
-          <h3>Fast Delivery</h3>
-          <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
+<!-- footer -->
+  <footer>
+      <div class="footerLeft">
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">About Us</h1>
+          <ul class="fList">
+            <li class="fListItem">Company</li>
+            <li class="fListItem">Contact</li>
+            <li class="fListItem">Careers</li>
+            <li class="fListItem">Affiliates</li>
+            <li class="fListItem">Stores</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Useful Links</h1>
+          <ul class="fList">
+            <li class="fListItem">Support</li>
+            <li class="fListItem">Refund</li>
+            <li class="fListItem">FAQ</li>
+            <li class="fListItem">Feedback</li>
+            <li class="fListItem">Stories</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Products</h1>
+          <ul class="fList">
+            <li class="fListItem">Air Force</li>
+            <li class="fListItem">Air Jordan</li>
+            <li class="fListItem">Blazer</li>
+            <li class="fListItem">Crater</li>
+            <li class="fListItem">Hippie</li>
+          </ul>
+        </div>
       </div>
-
-      <div class="services_box">
-          <i class="fa-solid fa-rotate-left"></i>
-          <h3>10 Days Replacement</h3>
-          <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-      </div>
-
-      <div class="services_box">
-          <i class="fa-solid fa-headset"></i>
-          <h3>24 x 7 Support</h3>
-          <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          </p>
-      </div>
-  </div>
-
-</div>
-
-
-
-<!--Login Form-->
-
-<div class="login_form">
-  <div class="left">
-      <img src="./img/logshoes.png">
-  </div>
-
-  <div class="right">
-      <h1>Welcome Back!</h1>
-
-      <form action="#" method="post">
-          <p>User Name</p>
-          <div class="user">
-              <i class="fa-solid fa-user"></i>
-              <input type="text" name="user" placeholder="User Name" class="username">
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+          <div class="fMail">
+            <input type="text" placeholder="your@email.com" class="fInput" />
+            <botton class="fBotton">Join!</botton>
           </div>
-
-          <p class="passworg_tag">Password</p>
-          <div class="password">
-              <i class="fa-solid fa-lock"></i>
-              <input type="text" name="password" placeholder="Password">
+        </div>
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Follow Us</h1>
+          <div class="fIcons">
+            <img src=".//img/facebook.png" alt="" class="fIcon" />
+            <img src=".//img/twitter.png" alt="" class="fIcon" />
+            <img src=".//img/instagram.png" alt="" class="fIcon" />
+            <img src=".//img/whatsapp.png" alt="" class="fIcon" />
           </div>
-
-          <p class="forget">Forget Password ?</p>
-
-          <button type="submit">Login</button>
-          <div class="loging_icon">
-              <a href="#"><img src="./img/google.png"></a>
-              <a href="#"><img src="./img/facebook.png"></a>
-              <a href="#"><img src="./img/twitter.png"></a>
-          </div>
-
-      </form>
-
-  </div>
-
-</div>
-
-
-
-<!--Footer-->
-
-<footer>
-  <div class="footer_main">
-      <div class="tag">
-          <h1>Contact</h1>
-          <a href="#"><i class="fa-solid fa-house"></i>123/Colombo/Sri Lanka</a>
-          <a href="#"><i class="fa-solid fa-phone"></i>+94 12 345 6789</a>
-          <a href="#"><i class="fa-solid fa-envelope"></i>contact@gmail.com</a>
+        </div>
+        <div class="footerRightMenu">
+        </div>
       </div>
+    </footer>
 
-      <div class="tag">
-          <h1>Get Help</h1>
-          <a href="#" class="center">FAQ</a>
-          <a href="#" class="center">Shipping</a>
-          <a href="#" class="center">Returns</a>
-          <a href="#" class="center">Payment Options</a>
-      </div>
 
-      <div class="tag">
-          <h1>Our Stores</h1>
-          <a href="#" class="center">Sri Lanka</a>
-          <a href="#" class="center">USA</a>
-          <a href="#" class="center">India</a>
-          <a href="#" class="center">Japan</a>
-      </div>
-
-      <div class="tag">
-          <h1>Follw Us</h1>
-          <div class="social_link">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
-          </div>
-      </div>
-
-      <div class="tag">
-          <h1>Newsletter</h1>
-          <div class="search_bar">
-              <input type="text" placeholder="You email id here">
-              <button type="submit">Subscribe</button>
-          </div>
-      </div>
-
-  </div>
+   <script src="lastMin.js"></script>
+  
   </body>
 </html>
